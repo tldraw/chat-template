@@ -2,10 +2,17 @@
 	"name": "tldraw-chat-app-example",
 	"version": "0.1.0",
 	"private": true,
-	"author": { "name": "tldraw GB Ltd.", "email": "hello@tldraw.com" },
+	"author": {
+		"name": "tldraw GB Ltd.",
+		"email": "hello@tldraw.com"
+	},
 	"homepage": "https://tldraw.dev",
 	"license": "MIT",
-	"scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
 	"dependencies": {
 		"@ai-sdk/google": "^2.0.14",
 		"@ai-sdk/react": "^2.0.15",
@@ -14,11 +21,11 @@
 		"@types/react": "^19.2.7",
 		"@types/react-dom": "^19.2.3",
 		"ai": "^5.0.63",
-		"next": "^15.4.10",
+		"next": "^15.5.14",
 		"react": "^19.2.1",
 		"react-dom": "^19.2.1",
 		"react-markdown": "^10.1.0",
-		"tldraw": "^4.5.10",
+		"tldraw": "^5.0.0",
 		"typescript": "^5.8.3",
 		"zod": "^4.1.8"
 	}
